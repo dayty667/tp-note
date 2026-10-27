@@ -4,5 +4,5 @@ services:
     ports:
       - "8081:80"
     environment:
-      NOM: ${NOM:-inconnu}
+      NOM: ${NOM:-Timothé}
     restart: unless-stopped
